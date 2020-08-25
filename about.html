@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            margin: 10px auto;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        nav {
+            padding: 20px;
+            float: right;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        a:hover {
+            color: grey;
+            transition: 0.3s;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            width: 800px;
+            margin: 30px auto;
+            color: grey;
+        }
+
+        span {
+            color: #000;
+        }
+
+        .main {
+            width: 800px;
+            margin: auto;
+            background-color: grey;
+            height: 50vh;
+        }
+
+        h4, h2 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .container2 {
+            width: 700px;
+            margin: auto;
+            background-color: #ffffff;
+            height: 40vh;
+        }
+
+        .grid-col {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 15px;
+        }
+
+        .cell {
+            background: #feffc4;
+            border: 1px solid #000;
+            padding: 50px;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        p {
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 1000px) {
+            .container {
+            width: 100%;
+            margin: 10px auto;
+            background-color: black;
+            overflow: hidden;
+        }
+        .main {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 200px) {
+            .container {
+            width: 100%;
+            margin: 10px auto;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .main {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>Arch <span>Develop.</span></h1>
+    </div>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Portfolio.html">Contact</a>
+        </nav>
+    </div>
+    <br>
+    <div class="main">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloremque molestiae asperiores similique nam officiis adipisci, sapiente, ipsam dolor debitis, commodi necessitatibus laboriosam <br> maxime voluptates sequi! Similique accusantium nesciunt a saepe.</p>
+    </div>
+
+    <br>
+    <div class="container">
+    <footer><h4>Copyrights 2019-2020 <br> All rights reserved</h4></footer>
+    </div>
+</body>
+</html>
